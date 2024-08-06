@@ -139,20 +139,25 @@ border-radius: 20px;
 
 
 .second-section{
-    
-}
-.second-section-container{
-    text-align: center;
+    background-color: #E5E7EB;
+    height: 500px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
 }
-.second-section p{
-    align-self: flex-end;
+.second-section-container{
+    width: 823.62px;
+}
+.second-section-container .quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.second-section .author{
+    font-size: 18px;
+    text-align: right;
+    font-weight: bolder;
 }
 
 
@@ -161,7 +166,7 @@ border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: red;
 }
 .call-container{
     background-color: #3882F6;
